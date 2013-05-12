@@ -1,3 +1,4 @@
+#!/usr/bin/python
 #dice roller    
 
 import random

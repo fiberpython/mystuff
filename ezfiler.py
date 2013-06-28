@@ -5,7 +5,7 @@ import sys
 def Cat(filename):
 	f = open(filename)
 	text = f.read()
-	print ' ----', filename
+	print '---', filename
 	print text
 
 # Define a main() function that prints a little greeting.

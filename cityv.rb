@@ -14,3 +14,8 @@ puts "I still need " +
      "to visit the " +
      "following cities:",
      cities - visited
+
+
+
+
+

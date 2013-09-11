@@ -1,6 +1,6 @@
 import subprocess
 
-dfh=subprocess.check_output("df -h | tail +2", shell=True)
+dfh=subprocess.check_output("df -h |grep '[0-9]%'", shell=True)
 df_output_lines = [s.split() for s in dfh.splitlines()]
 how_many_lines = dfh.count("\n")
 

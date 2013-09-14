@@ -1,13 +1,15 @@
 import subprocess
 import sys
 
+# get DF without the header
 dfh=subprocess.check_output("df -h |grep '[0-9]%'", shell=True)
 df_output_lines = [s.split() for s in dfh.splitlines()]
+# Tell me how many lines to loop thur
 how_many_lines = dfh.count("\n")
 
 for x in range(how_many_lines):
-        fsmb = df_output_lines[x].pop()
-        prsb = df_output_lines[x].pop()
+        fsmb = df_output_lines[x].pop() # filesystem
+        prsb = df_output_lines[x].pop() # Percent sign
         numbb = prsb[::1].strip().replace("%","")
         if int(numbb) > 80:
             mymess = "filesystem {fsb} is {pcbb} full and over the allotted threshold".format(fsb=fsmb, pcbb=prsb)
@@ -16,7 +18,8 @@ for x in range(how_many_lines):
             output, errors = p.communicate()
             
             # print "filesystem {fsb} is {pcbb} full and over the allotted threshold".format(fsb=fsmb, pcbb=prsb)
-            
+           
+# This line is for doc
 """
 You can use op.popen to run the command and retrieve its output, 
 then splitlines and split to split the lines and fields. Run 

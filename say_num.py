@@ -1,8 +1,8 @@
 import random, subprocess
 
 x=int(random.uniform(7, 18))
-
 k=int(random.uniform(19, 38))
+
 ans = k - x
 print "\n %d - %d = %d" % (k,x,ans)
 thewrit ="""  say %d minus %d """ % (k,x)

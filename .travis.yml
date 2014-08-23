@@ -1,18 +1,18 @@
- see http://about.travis-ci.org/docs/user/languages/php/ for more hints
+ # see http://about.travis-ci.org/docs/user/languages/php/ for more hints
  language: php
 
  # list any PHP version you want to test against
  php:
-   # using major version aliases
-     # aliased to a recent 5.3.x version
+ # using major version aliases
+ # aliased to a recent 5.3.x version
        - 5.3
-         # aliased to a recent 5.4.x version
+ # aliased to a recent 5.4.x version
            - 5.4
-             # aliased to a recent 5.5.x version
+ # aliased to a recent 5.5.x version
                - 5.5
                before_script: cd php
 
-               # omitting "script:" will default to phpunit
-               # use the $DB env variable to determine the phpunit.xml to use
+ # omitting "script:" will default to phpunit
+ # use the $DB env variable to determine the phpunit.xml to use
                script: phpunit -c tests
 

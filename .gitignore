@@ -1,4 +1,10 @@
 .DS_Store
 *.swp
+<<<<<<< HEAD
 .idea
 .gitignore
+=======
+.gitignore
+nohup.out
+.idea
+>>>>>>> jdata

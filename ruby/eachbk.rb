@@ -6,7 +6,7 @@ array = [
   "JulieB"
 ]
 
-array.each do|name|
+array.each do |name|
   puts name
 end
 

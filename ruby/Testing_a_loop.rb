@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby   
 
-%w{ok just so you know}.each do |colddig|
-	puts "   \"#{colddig}\"  "
+%w{ok just so you know}.each do |cdg|
+	puts "   \"#{cdg}\"  "
 end

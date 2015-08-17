@@ -1,4 +1,5 @@
 # Simple hash constructs
+
 $fred{"with"} = "without";
 $fred{"this"} = "that";
 $fred{"mountain"} = "valley";

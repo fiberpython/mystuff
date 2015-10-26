@@ -13,17 +13,15 @@ while(<FH>){
         my @daline = split /,/, $line;
 
 
-   $n = 0;
-
   foreach my $val (@daline) {
-
-  	next if $val !~ /\@columbia.edu/;
-
-  	#    >>>  next if $val =~ (m/cornell/);
-    # print "Con[$n] $val\n";
-    # /opt/local/bin/expn $val
+    next if $val !~ /\@columbia.edu/;
+    system ("sleep 2");
     print "/opt/local/bin/expn $val\n";
+
+    
     # @ans = `/opt/local/bin/expn $val 2>&1`; # here I'm trying to capture the output from the command
+        # /opt/local/bin/expn $val
+
   }
 
        }

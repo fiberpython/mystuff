@@ -4,7 +4,7 @@
 print "Mary had a little lamb."
 print "It's fleece was white as %s." % 'snow'
 print "And everywhere that Mary went."
-print "." * 10 # this iterates this out to 10  dots
+print "." * 120 # this iterates this out to 10  dots
 
 
 end1 = "C"
@@ -20,8 +20,8 @@ end10 = "g"
 end11 = "e"
 end12 = "r"
 
-#watch that comma
-what I understand the 1st print puts in a new line
+# watch that comma
+# what I understand the 1st print puts in a new line
 print end1 + end2 + end3 + end4 + end5 + end6
 print end7 + end8 + end9 + end10 + end11 + end12
 

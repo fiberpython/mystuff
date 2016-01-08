@@ -1,0 +1,39 @@
+#!/bin/bash
+# expnshort 
+ 
+# this script expnShort looks at a short list (1 file)
+# of emails to determine if they are active and 
+# still valid.
+# 1) the main of this script is at the bottom.
+# 2) the function calls are self-explanatory except for ifFlagGetsSet
+#    ifFlagGetsSet means that there errors and the script must 
+#    escalate that alert in the form of an email
+# 3) This script should run once a month
+# 4) the /opt/provisioning/emailfile file should be present
+
+
+# tempErrorsFound is needed when there are errors found
+
+function initalizeSetup {
+     tempErrorsFound=/tmp/$$
+     touch $tempErrorsFound
+}
+
+# I could not get to the key under /root/.ssh/KEY
+
+
+
+
+
+
+function cleanUp {
+  /usr/bin/rm $tempErrorsFound
+}
+
+################################## Main #####################################
+
+initalizeSetup
+cleanUp
+
+
+ 

@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # expnshort 
  
 # this script expnShort looks at a short list (1 file)
@@ -15,7 +16,7 @@
 # tempErrorsFound is needed when there are errors found
 
 function initalizeSetup {
-     tempErrorsFound=/tmp/$$
+     tempErrorsFound=/Users/pat2149/mystuff/shell/Started.lets.$$
      touch $tempErrorsFound
 }
 
@@ -27,7 +28,8 @@ function initalizeSetup {
 
 
 function cleanUp {
-  /usr/bin/rm $tempErrorsFound
+  
+  /bin/rm $tempErrorsFound
 }
 
 ################################## Main #####################################

@@ -1,7 +1,7 @@
 import numpy as np
 
-num = 10
-table = np.zeros((25, num)) 
+num = 2
+table = np.zeros((2, num)) 
 
 row, col = table.shape
 print row, col  # >> 2, 10

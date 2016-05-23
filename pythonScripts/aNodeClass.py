@@ -19,13 +19,14 @@ class Node:
     	temp.setNext(self.head)
     	self.head = temp
 
-
     def setNext(self,newnext):
         self.next = newnext
 
 
 temp = Node(93)
 print 'The number is %d' % temp.getData()
+
+
 
 temp = Node(23)
 print 'The number is %d' % temp.getData()

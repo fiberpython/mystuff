@@ -27,4 +27,4 @@ Amazon Simple Storage Service (S3)   -
 Amazon Simple Workflow Service (SWF)   - 
 AWS Support   - 
 AWS Trusted Advisor   - 
-VM Import/Export   - 
+VM Import/Export - 

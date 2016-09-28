@@ -13,6 +13,6 @@ def memoize(f):
     return memf
 
 fib = memoize(fib)
-fib(40)
+print fib(7)
 
 

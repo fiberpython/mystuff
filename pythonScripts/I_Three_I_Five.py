@@ -6,8 +6,10 @@ def echo3():
 
 
 for i in range(100):
-	i = i + 1
-
+	# i = i + 1
+    if i == 0:
+    	print "oops we have a Zero here"
+    	break
 	if i % 3 == 0:
 		echo3()
 		print "Fizz >> %d" % i

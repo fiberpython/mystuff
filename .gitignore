@@ -1,3 +1,12 @@
+.bundle
+.sass-cache
+.gist-cache
+.pygments-cache
+_deploy
+public
+sass.old
+vendor
+node_modules
 .DS_Store
 *.swp
 <<<<<<< HEAD

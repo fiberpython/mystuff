@@ -11,4 +11,4 @@ foo("hello")
 # Number of arguments: 1
 # Argument 0 is: hello
  
-foo("hello","World","Again")
+foo("hello","World","Again","Nick","Luck")

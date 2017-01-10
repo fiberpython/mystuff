@@ -2,7 +2,7 @@
 def echo5():
 	print "This number is divisible by 5"
 def echo3():
-	print "This number is divisible by 3"
+	print "This number is or not divisible by 3"
 
 
 for i in range(100):

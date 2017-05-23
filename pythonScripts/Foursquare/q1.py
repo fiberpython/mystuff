@@ -10,9 +10,12 @@ class Interval(object):
 
 def uncovered_intervals(intervals):
     uncovered = []
-    #
-    # Your code here
-    #
+     #I need to sum up the all the intervals
+     # I will assume that I know the start as 1
+     # but I will need to see the largest number
+     # Now I will pick thur the numbers to find 
+     # numbers that are not there
+
     return uncovered
 
 def main():
@@ -37,8 +40,9 @@ if __name__ == '__main__':
 # one per line, and  outputs a list of the intervals not​ 
 # covered by the input intervals. For example, given input
 
+https://www.udemy.com/the-complete-jenkins-course-for-developers-and-devops/?pmtag=L2RA202&siteID=81xaD7CEKxg-GAOI3HLR3Kkdkpj9nd256Q&LSNPUBID=81xaD7CEKxg
 
-
+learn Graylog
 What is the Difference between Kinesis and SQS
 So you would really like to rank the Reserved EC2, On-Demand to the Spot instances by price.
 

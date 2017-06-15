@@ -17,8 +17,8 @@ def main():
         # print "The lowest number is %s" % (intervals[0])
         # print " Again the Smallest number is %s " % (min(intervals))
         # print " largest number in the list is %s" % (max(intervals))
-    k = max(intervals) + 1
-    for xy in range(min(intervals), k):    
+    maxrange = max(intervals) + 1
+    for xy in range(min(intervals), maxrange):    
         yx.append(xy)
     yx = sorted(set(yx))
     print "yx is %s" % (yx)

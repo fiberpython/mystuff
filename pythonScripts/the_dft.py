@@ -13,7 +13,7 @@ for x in range(how_many_lines):
         numbb = prsb[::1].strip().replace("%","")
         if int(numbb) > 80:
             mymess = "filesystem {fsb} is {pcbb} full and over the allotted threshold".format(fsb=fsmb, pcbb=prsb)
-            cmd="""echo "%s" | /usr/bin/mailx -s '%s' pturner""" % (mymess, mymess)
+            cmd="""echo "%s" | /usr/bin/mailx -s '%s' pault""" % (mymess, mymess)
             p=subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
             output, errors = p.communicate()
             

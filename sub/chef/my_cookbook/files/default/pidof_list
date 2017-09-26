@@ -1,0 +1,3 @@
+ps -ef|grep -i root|grep -v pts|awk '{print $8}'|sed 's/^/pidof /g'|grep -v ']$'
+echo 
+ps -ef|grep -i root|grep -v pts|awk '{print $8}'|sed 's/^/pidof /g'|grep -v ']$'|sh

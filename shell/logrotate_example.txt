@@ -1,7 +1,0 @@
-/your/location/your-file {
-   rotate 4  # create upto .4.gz
-   compress  # gzip compresses the file
-   missingok  # its OK if it's not there
-   monthly    # could be weekly or daily
-   notifempty # if file is empty dont rotate it
-}

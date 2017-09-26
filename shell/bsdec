@@ -1,7 +1,0 @@
-#!/bin/bash
-
-declare -a poppa=('one' 'two')
-for a in "${poppa[@]}"
-do
- 	echo "$a"
-done

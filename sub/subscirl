@@ -1,0 +1,46 @@
+#	00000000000000000000000000000000000000000000
+
+#2013nomination>
+2013nomination:2014nomination
+
+
+#2014nomination>
+2014nomination:gea9@columbia.edu
+
+
+#2culbibframe>To faciliate discussion of BIBFRAME testing between Columbia and Cornell staff.
+2culbibframe:acontu@law.columbia.edu,alc28@cornell.edu,cnc53@cornell.edu,ep2132@columbia.edu,harcourt@columbia.edu,ink2@columbia.edu,jak473@cornell.edu,jmp8@cornell.edu,matthew.haugen@columbia.edu,mek2143@columbia.edu,mespitia@law.columbia.edu,ms4762@columbia.edu,mw18@columbia.edu,mw2064@columbia.edu,rcf2123@columbia.edu,rr2205@columbia.edu,sf433@cornell.edu,tls224@cornell.edu
+
+
+#2culcirc>general feedback address (reply-to)
+2culcirc:eo33@columbia.edu,mfm2123@columbia.edu,ws2154@columbia.edu
+
+
+#2culcirc-out>outbound (to cornell)
+2culcirc-out:eo33@columbia.edu,mfm2123@columbia.edu,ws2154@columbia.edu,libpublicservices@cornell.edu
+
+
+#2culcirc-reg>2CUL circulation registration for incoming 2culcirc reg
+2culcirc-reg:groups-cul-2culcirc-reg
+
+#2culcirc-reg-dist>2CUL circulation registration for incoming 2culcirc reg
+2culcirc-reg-dist:dw23@columbia.edu,eo33@columbia.edu,mfm2123@columbia.edu,ws2154@columbia.edu
+
+
+#2culcoll>2CUL Collection Development working group
+2culcoll:wolven@columbia.edu, djaggars@columbia.edu, pmg16@columbia.edu, jms1@cornell.edu, jam7@cornell.edu, kw33@cornell.edu
+
+#2culebscopilot>2CUL eJournal preservation EBSCO pilot
+2culebscopilot:apowers@ebsco.com,dmangione@ebsco.com,jgm6@columbia.edu,rtiwary@ebsco.com,
+
+
+#2cul_non_marc>2CUL non-marc working group
+2cul_non_marc:hmm88@cornell.edu,jak473@cornell.edu,mw2064@columbia.edu,rlb179@columbia.edu,rr2205@columbia.edu,sf433@cornell.edu,wak57@cornell.edu
+
+
+#2cultechserv>2CUL Technical Services (all TS staff at Columbia and Cornell)
+2cultechserv:LTS-L@cornell.edu,columbiats
+
+# 2cultroubleshooting > 2CUL Troubleshooting Group
+2cultroubleshooting:jgm6@columbia.edu,jtk1@cornell.edu,lsk24@cornell.edu,sem2166@columbia.edu
+

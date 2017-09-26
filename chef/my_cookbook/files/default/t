@@ -1,4 +1,0 @@
-# DO NOT CHANGE THIS FILE, IT IS 
-# BEING CREATED BY CHEF
-clear
-date +"Date: %D%nTime: %T"

@@ -6,5 +6,5 @@ print "\n\n $now_string\n\n ";
 
 
 # $dDate = system("/bin/date \"+%Y%e%m%H%M%S\"");
-# print "\ndate = $dDate\n\n";
+# print "\ndate = $dDate\n\n\n";
 

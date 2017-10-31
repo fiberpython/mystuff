@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 
-sub chkoutit($pasingval) {
+sub chkoutit($passingval) {
 
-	variableset = strip(/$passingval/,/%/);
+	$variableset = strip(/$passingval/,/%/);
 	if ($variableset is in the range |80-100|) {
 		statisis = TRUE;
 		exit 1

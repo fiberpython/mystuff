@@ -1,0 +1,4 @@
+
+import fabric
+run(clear)
+

@@ -10,6 +10,6 @@ my $date = $dt->ymd;   # Retrieves date as a string in 'yyyy-mm-dd' format
 my $time = $dt->hms;   # Retrieves time as a string in 'hh:mm:ss' format
 
 my $wanted = "$date $time";   # creates 'yyyy-mm-dd hh:mm:ss' string
-print $wanted;
+print  "\n\tthe current time is\n\t" . $wanted . "\n\n";
 
 

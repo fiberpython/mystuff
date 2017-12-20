@@ -1,4 +1,8 @@
-#!/usr/bin/perl
+# #!/usr/bin/perl
+#!/opt/local/bin/perl 
+
+print "wi";
+break;
 use Switch;
 
 @array1 = ("abc", abb, "p", "p", "nameme","abc");

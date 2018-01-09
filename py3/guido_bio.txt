@@ -1,0 +1,3 @@
+
+Guido van Rossum (Dutch pronunciation: [ˈɣido vɑn ˈrɔsʏm, -səm], born 31 January[5] 1956) is a Dutch programmer who is best known as the author of the Python programming language. In the Python community, van Rossum is known as a "Benevolent Dictator For Life" (BDFL), meaning that he continues to oversee the Python development process, making decisions where necessary.[6] He was employed by Google from 2005 until December 7th 2012, where he spent half his time developing the Python language. In January 2013, van Rossum started working for Dropbox.[3]
+

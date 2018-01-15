@@ -1,0 +1,17 @@
+
+pault@amarillo:~$ virtualenv try-twisted
+Using base prefix '/usr'
+New python executable in /home/pault/try-twisted/bin/python3
+Also creating executable in /home/pault/try-twisted/bin/python
+Installing setuptools, pip, wheel...done.
+pault@amarillo:~$ . try-twisted/bin/activate
+(try-twisted) pault@amarillo:~$ pip install twisted[tls]
+Collecting twisted[tls]
+
+
+
+virtualenv try-twisted
+. try-twisted/bin/activate
+pip install twisted[tls]
+
+twist --help

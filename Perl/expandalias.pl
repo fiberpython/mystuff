@@ -10,19 +10,19 @@ while(<FH>){
 		next if /#/;
 		$line =~ s/^*\://;
         print "$line";
-        my @daline = split /,/, $line;
+        my @The_line = split /,/, $line;
 
-	   # my ($daline)=split(",", $line);
-	    print "daline = @daline\n";
-	    print "daline 0 = @daline[0]\n";
-	    print "daline 1 = @daline[1]\n";
-	    print "daline 2 = @daline[2]\n";
+	   # my ($The_line)=split(",", $line);
+	    print "The_line = @The_line\n";
+	    print "The_line 0 = @The_line[0]\n";
+	    print "The_line 1 = @The_line[1]\n";
+	    print "The_line 2 = @The_line[2]\n";
 
 	    exit;
 
-	    my (@seekihome)=split(",", @daline);
-        #print "NOTHING TO SEE HERE daline = $daline\n";
-	    #print ("GEE: @daline\n");
+	    my (@seekihome)=split(",", @The_line);
+        #print "NOTHING TO SEE HERE The_line = $The_line\n";
+	    #print ("GEE: @The_line\n");
 	    $n = 0;
 
 # USE THE SCALAR FORM OF ARRAY??
@@ -35,9 +35,9 @@ while ($seekihome[$n]) {
 
        
 #		print ("$line");
-	    #my ($dropit,@daline)=split(":", $line);
+	    #my ($dropit,@The_line)=split(":", $line);
 
-	#system (date);
+	#system (The_te);
 
        }
 
@@ -71,6 +71,6 @@ while ($seekihome[$n]) {
 # 	close OUTPUT;
 # $i++;
 # } # end foreach
-# system (date);
+# system (The_te);
 # 
 # 

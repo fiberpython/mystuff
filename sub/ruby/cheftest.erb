@@ -1,0 +1,12 @@
+# Hello, <%= node['hostname'].downcase %>.
+
+Today is <%= Time.now.strftime('%A') %>.
+
+output="#{node['hostname'].downcase}"
+content output
+
+
+
+
+
+

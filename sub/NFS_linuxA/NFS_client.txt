@@ -4,30 +4,6 @@ pup1
 longfill:~ pturner$ pup1
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Linux fibercity.fibershell.com 3.2.0-4-amd64 #1 SMP Debian 3.2.41-2+deb7u2 x86_64
 
 ****************************************************************************

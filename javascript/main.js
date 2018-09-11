@@ -15,7 +15,6 @@ var objPeople = [
 		username: "chris",
 		password: "forever"
 	}
-
 ]
 
 function getInfo() {

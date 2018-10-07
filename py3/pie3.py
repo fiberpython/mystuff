@@ -4,3 +4,5 @@ with open("/home/pault/mystuff/py3/guido_bio.txt") as fobj:
     bio = fobj.read()
 
 print(bio)
+print("did this work")
+

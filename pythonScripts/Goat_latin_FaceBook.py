@@ -1,3 +1,4 @@
+#!/Users/pturner/anaconda2/bin/python
 
 def string_to_goat_latin(locstg):
     vowel = ("aeiouyAEIOUY")

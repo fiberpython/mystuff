@@ -1,5 +1,9 @@
-from fabric.api import local,lcd
+from fabric import local, lcd
+
 
 def insdb():
-	local("clear")
-	local("ls -lat")
+    local("clear")
+    local("ls -lat")
+
+
+insdb()

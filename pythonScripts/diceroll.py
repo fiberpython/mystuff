@@ -11,6 +11,5 @@ def DiceRoller():
     d = int(sides)
     roll = int(random.random()*d)+1
     print roll
-    
 
 DiceRoller()

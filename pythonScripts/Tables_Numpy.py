@@ -12,3 +12,5 @@ for i in range(row):
         table[i][ii] = 1
 
 print table
+
+

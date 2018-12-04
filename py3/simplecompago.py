@@ -14,6 +14,10 @@ def ungreet(to="world"):
 if __name__ == '__main__': app.run()
 
 
+
+
+
+
 # BLUEMAC:~ bssg$ /Users/bssg/mystuff/py3/simplecompago.py greet --to=Pablo
 # Hello, Pablo !
 # BLUEMAC:~ bssg$ /Users/bssg/mystuff/py3/simplecompago.py greet

@@ -1,5 +1,6 @@
 #!/usr/local/bin/python2.7
 
+
 def sq_num(nums):
     for i in nums:
         yield (i*i)

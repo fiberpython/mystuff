@@ -28,7 +28,4 @@ foreach my $line (@andlines) {
         if (chkoutit($f)) {
 		 system("/bin/mail -s 'File system $g is $f full' paulturner41@gmail.com ")
 	}
-
-
-
 }

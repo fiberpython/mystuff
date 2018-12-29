@@ -8,4 +8,6 @@ print(first.title())
 
 print(last.title())
 
-print(fullname.title())
+print(fullname.title() + " shock space")
+
+

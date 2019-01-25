@@ -1,5 +1,5 @@
-# simple centos nginx launch
-FROM centos:latest
+# simple Ubuntu nginx launch
+FROM ubuntu:latest
 LABEL maintainer="fiberphoton@gmail.com"
 
 RUN apt-get install nginx

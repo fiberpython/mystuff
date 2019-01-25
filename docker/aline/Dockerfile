@@ -7,6 +7,6 @@ RUN apt-get install nginx -y
 RUN echo "This is your content" >> /etc/nginx/index.html
 
 EXPOSE 80
-ENTRYPOINT [ "nginx -s quit" ]
+ENTRYPOINT [ "/usr/sbin/nginx -g daemon on" ]
 # ENTRYPOINT /usr/bin/nginx
 

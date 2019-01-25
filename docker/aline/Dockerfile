@@ -7,5 +7,6 @@ RUN apt-get install nginx -y
 RUN echo "This is your content" >> /etc/nginx/sites-available/default/index.html
 
 EXPOSE 80
-ENTRYPOINT /usr/bin/nginx
+ENTRYPOINT [ "/usr/sbin/nginx" ]
+# ENTRYPOINT /usr/bin/nginx
 

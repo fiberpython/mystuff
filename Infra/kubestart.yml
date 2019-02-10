@@ -5,9 +5,9 @@ kind: Pod
 metadata:
   name: myapp-pod
   lables:
-    app: myapp-pod
+    app: myapp
 
 spec:
   containers:
     - name: nginx-container
-      image: nginx
+      image: nginx 

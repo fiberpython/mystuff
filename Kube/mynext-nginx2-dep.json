@@ -1,0 +1,77 @@
+{
+  "kind": "ReplicaSet",
+  "apiVersion": "extensions/v1beta1",
+  "metadata": {
+    "name": "nginx2-deployment-6ddf4c5bf7",
+    "namespace": "default",
+    "selfLink": "/apis/extensions/v1beta1/namespaces/default/replicasets/nginx2-deployment-6ddf4c5bf7",
+    "uid": "88b0fa34-3b13-11e9-a55a-080027728a47",
+    "resourceVersion": "2082954",
+    "generation": 2,
+    "creationTimestamp": "2019-02-28T04:44:29Z",
+    "labels": {
+      "app": "nginx",
+      "pod-template-hash": "2889071693"
+    },
+    "annotations": {
+      "deployment.kubernetes.io/desired-replicas": "0",
+      "deployment.kubernetes.io/max-replicas": "0",
+      "deployment.kubernetes.io/revision": "1"
+    },
+    "ownerReferences": [
+      {
+        "apiVersion": "extensions/v1beta1",
+        "kind": "Deployment",
+        "name": "nginx2-deployment",
+        "uid": "88af93a1-3b13-11e9-a55a-080027728a47",
+        "controller": true,
+        "blockOwnerDeletion": true
+      }
+    ]
+  },
+  "spec": {
+    "replicas": 0,
+    "selector": {
+      "matchLabels": {
+        "app": "nginx",
+        "pod-template-hash": "2889071693"
+      }
+    },
+    "template": {
+      "metadata": {
+        "creationTimestamp": null,
+        "labels": {
+          "app": "nginx",
+          "pod-template-hash": "2889071693"
+        }
+      },
+      "spec": {
+        "containers": [
+          {
+            "name": "nginx",
+            "image": "nginx:1.8",
+            "ports": [
+              {
+                "containerPort": 80,
+                "protocol": "TCP"
+              }
+            ],
+            "resources": {},
+            "terminationMessagePath": "/dev/termination-log",
+            "terminationMessagePolicy": "File",
+            "imagePullPolicy": "IfNotPresent"
+          }
+        ],
+        "restartPolicy": "Always",
+        "terminationGracePeriodSeconds": 30,
+        "dnsPolicy": "ClusterFirst",
+        "securityContext": {},
+        "schedulerName": "default-scheduler"
+      }
+    }
+  },
+  "status": {
+    "replicas": 0,
+    "observedGeneration": 2
+  }
+}

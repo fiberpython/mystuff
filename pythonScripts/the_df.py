@@ -6,12 +6,14 @@ how_many_lines = dfh.count("\n")
 
 
 for x in range(how_many_lines):
-	    fsmb = df_output_lines[x].pop()
-	    prsb = df_output_lines[x].pop()
-	    print "filesystem {fsb} is {pcbb} full".format(fsb=fsmb, pcbb=prsb)
+	fsmb = df_output_lines[x].pop()
+	prsb = df_output_lines[x].pop()
+	print ("Filesystem {%d} is {%d}") % (fsmb, prsb)
 
 
 
 
+#print "filesystem {fsb} is {pcbb} full \n".format(fsb=fsmb, pcbb=prsb)
 
 
+		# % (1, 'dead')

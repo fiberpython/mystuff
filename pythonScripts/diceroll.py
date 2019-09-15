@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#dice roller    
+#dice roller
 
 import random
 

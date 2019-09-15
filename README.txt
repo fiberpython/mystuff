@@ -1,6 +1,6 @@
 Author: Paul Turner
 
-Project: Refresh Of My coding skills
+Project:  Refresh Of My coding skills
 Requriements: Any lanuge that fits my fancy.
 
 Thanks for stopping by. Please enjoy my coding style. I'm sure that there 
